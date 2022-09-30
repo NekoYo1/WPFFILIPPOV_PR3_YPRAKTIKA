@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
+            <Button Background="DarkBlue" Foreground="White" FontFamily="Verdana" Padding="5" Margin="5">Открыть</Button>
+            <Button Background="DarkBlue" Foreground="White" FontFamily="Verdana" Padding="5" Margin="5">Обработать</Button>
+            <Button Background="DarkBlue" Foreground="White" FontFamily="Verdana" Padding="5" Margin="5">Сохранить</Button>
+            <Button Padding="5" Margin="5">Закрыть</Button>
+        </StackPanel>
     </Grid>
 </Window>
