@@ -23,5 +23,15 @@ namespace WPFFILIPPOV_PR3_YPRAKTIKA
         {
             InitializeComponent();
         }
+        private void tb1_LostFocus(object sender, RoutedEventArgs e)
+        {
+            (sender as FrameworkElement).Style = (Style)Resources["style2"];
+        }
+
+        private void tb1_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+            (sender as FrameworkElement).Style = (Style)Resources["style1"];
+        }
+
     }
 }
