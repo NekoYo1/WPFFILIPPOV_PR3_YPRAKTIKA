@@ -12,7 +12,7 @@
             <Button Background="DarkBlue" Foreground="White" FontFamily="Verdana" Padding="5" Margin="5">Обработать</Button>
             <Button Background="DarkBlue" Foreground="White" FontFamily="Verdana" Padding="5" Margin="5">Сохранить</Button>
             <Button Padding="5" Margin="5">Закрыть</Button>
-            <Button Padding="5" Width="167" Content="Сам работа"/>
+            <Button Padding="5" Width="167" Content="Сам работа" Click="Button_Click"/>
         </StackPanel>
     </Grid>
 </Window>
